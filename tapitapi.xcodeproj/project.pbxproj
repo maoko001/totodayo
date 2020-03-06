@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1DA5F542409195100123EE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DA5F532409195100123EE1 /* AppDelegate.swift */; };
+		D1DA5F562409195100123EE1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DA5F552409195100123EE1 /* SceneDelegate.swift */; };
+		D1DA5F582409195100123EE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DA5F572409195100123EE1 /* ViewController.swift */; };
+		D1DA5F5B2409195100123EE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1DA5F592409195100123EE1 /* Main.storyboard */; };
+		D1DA5F5D2409195500123EE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1DA5F5C2409195500123EE1 /* Assets.xcassets */; };
+		D1DA5F602409195500123EE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1DA5F5E2409195500123EE1 /* LaunchScreen.storyboard */; };
+		D1DA5F6B2409195500123EE1 /* tapitapiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DA5F6A2409195500123EE1 /* tapitapiTests.swift */; };
+		D1DA5F762409195500123EE1 /* tapitapiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DA5F752409195500123EE1 /* tapitapiUITests.swift */; };
+		D1DA5F8624092D8400123EE1 /* CitrusFruits.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D1DA5F842409242E00123EE1 /* CitrusFruits.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1DA5F672409195500123EE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1DA5F482409195100123EE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1DA5F4F2409195100123EE1;
+			remoteInfo = tapitapi;
+		};
+		D1DA5F722409195500123EE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1DA5F482409195100123EE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1DA5F4F2409195100123EE1;
+			remoteInfo = tapitapi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D1DA5F502409195100123EE1 /* tapitapi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tapitapi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1DA5F532409195100123EE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D1DA5F552409195100123EE1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D1DA5F572409195100123EE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D1DA5F5A2409195100123EE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1DA5F5C2409195500123EE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1DA5F5F2409195500123EE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D1DA5F612409195500123EE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1DA5F662409195500123EE1 /* tapitapiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tapitapiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1DA5F6A2409195500123EE1 /* tapitapiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tapitapiTests.swift; sourceTree = "<group>"; };
+		D1DA5F6C2409195500123EE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1DA5F712409195500123EE1 /* tapitapiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tapitapiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1DA5F752409195500123EE1 /* tapitapiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tapitapiUITests.swift; sourceTree = "<group>"; };
+		D1DA5F772409195500123EE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1DA5F842409242E00123EE1 /* CitrusFruits.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CitrusFruits.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1DA5F4D2409195100123EE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1DA5F632409195500123EE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1DA5F6E2409195500123EE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1DA5F472409195100123EE1 = {
+			isa = PBXGroup;
+			children = (
+				D1DA5F522409195100123EE1 /* tapitapi */,
+				D1DA5F692409195500123EE1 /* tapitapiTests */,
+				D1DA5F742409195500123EE1 /* tapitapiUITests */,
+				D1DA5F512409195100123EE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1DA5F512409195100123EE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1DA5F502409195100123EE1 /* tapitapi.app */,
+				D1DA5F662409195500123EE1 /* tapitapiTests.xctest */,
+				D1DA5F712409195500123EE1 /* tapitapiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1DA5F522409195100123EE1 /* tapitapi */ = {
+			isa = PBXGroup;
+			children = (
+				D1DA5F532409195100123EE1 /* AppDelegate.swift */,
+				D1DA5F552409195100123EE1 /* SceneDelegate.swift */,
+				D1DA5F572409195100123EE1 /* ViewController.swift */,
+				D1DA5F592409195100123EE1 /* Main.storyboard */,
+				D1DA5F842409242E00123EE1 /* CitrusFruits.ttf */,
+				D1DA5F5C2409195500123EE1 /* Assets.xcassets */,
+				D1DA5F5E2409195500123EE1 /* LaunchScreen.storyboard */,
+				D1DA5F612409195500123EE1 /* Info.plist */,
+			);
+			path = tapitapi;
+			sourceTree = "<group>";
+		};
+		D1DA5F692409195500123EE1 /* tapitapiTests */ = {
+			isa = PBXGroup;
+			children = (
+				D1DA5F6A2409195500123EE1 /* tapitapiTests.swift */,
+				D1DA5F6C2409195500123EE1 /* Info.plist */,
+			);
+			path = tapitapiTests;
+			sourceTree = "<group>";
+		};
+		D1DA5F742409195500123EE1 /* tapitapiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D1DA5F752409195500123EE1 /* tapitapiUITests.swift */,
+				D1DA5F772409195500123EE1 /* Info.plist */,
+			);
+			path = tapitapiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1DA5F4F2409195100123EE1 /* tapitapi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1DA5F7A2409195500123EE1 /* Build configuration list for PBXNativeTarget "tapitapi" */;
+			buildPhases = (
+				D1DA5F4C2409195100123EE1 /* Sources */,
+				D1DA5F4D2409195100123EE1 /* Frameworks */,
+				D1DA5F4E2409195100123EE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tapitapi;
+			productName = tapitapi;
+			productReference = D1DA5F502409195100123EE1 /* tapitapi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1DA5F652409195500123EE1 /* tapitapiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1DA5F7D2409195500123EE1 /* Build configuration list for PBXNativeTarget "tapitapiTests" */;
+			buildPhases = (
+				D1DA5F622409195500123EE1 /* Sources */,
+				D1DA5F632409195500123EE1 /* Frameworks */,
+				D1DA5F642409195500123EE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1DA5F682409195500123EE1 /* PBXTargetDependency */,
+			);
+			name = tapitapiTests;
+			productName = tapitapiTests;
+			productReference = D1DA5F662409195500123EE1 /* tapitapiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D1DA5F702409195500123EE1 /* tapitapiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1DA5F802409195500123EE1 /* Build configuration list for PBXNativeTarget "tapitapiUITests" */;
+			buildPhases = (
+				D1DA5F6D2409195500123EE1 /* Sources */,
+				D1DA5F6E2409195500123EE1 /* Frameworks */,
+				D1DA5F6F2409195500123EE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1DA5F732409195500123EE1 /* PBXTargetDependency */,
+			);
+			name = tapitapiUITests;
+			productName = tapitapiUITests;
+			productReference = D1DA5F712409195500123EE1 /* tapitapiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1DA5F482409195100123EE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Maoko Furuya";
+				TargetAttributes = {
+					D1DA5F4F2409195100123EE1 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					D1DA5F652409195500123EE1 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D1DA5F4F2409195100123EE1;
+					};
+					D1DA5F702409195500123EE1 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D1DA5F4F2409195100123EE1;
+					};
+				};
+			};
+			buildConfigurationList = D1DA5F4B2409195100123EE1 /* Build configuration list for PBXProject "tapitapi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1DA5F472409195100123EE1;
+			productRefGroup = D1DA5F512409195100123EE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1DA5F4F2409195100123EE1 /* tapitapi */,
+				D1DA5F652409195500123EE1 /* tapitapiTests */,
+				D1DA5F702409195500123EE1 /* tapitapiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1DA5F4E2409195100123EE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1DA5F602409195500123EE1 /* LaunchScreen.storyboard in Resources */,
+				D1DA5F5D2409195500123EE1 /* Assets.xcassets in Resources */,
+				D1DA5F5B2409195100123EE1 /* Main.storyboard in Resources */,
+				D1DA5F8624092D8400123EE1 /* CitrusFruits.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1DA5F642409195500123EE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1DA5F6F2409195500123EE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1DA5F4C2409195100123EE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1DA5F582409195100123EE1 /* ViewController.swift in Sources */,
+				D1DA5F542409195100123EE1 /* AppDelegate.swift in Sources */,
+				D1DA5F562409195100123EE1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1DA5F622409195500123EE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1DA5F6B2409195500123EE1 /* tapitapiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1DA5F6D2409195500123EE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1DA5F762409195500123EE1 /* tapitapiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1DA5F682409195500123EE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1DA5F4F2409195100123EE1 /* tapitapi */;
+			targetProxy = D1DA5F672409195500123EE1 /* PBXContainerItemProxy */;
+		};
+		D1DA5F732409195500123EE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1DA5F4F2409195100123EE1 /* tapitapi */;
+			targetProxy = D1DA5F722409195500123EE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D1DA5F592409195100123EE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1DA5F5A2409195100123EE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D1DA5F5E2409195500123EE1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1DA5F5F2409195500123EE1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1DA5F782409195500123EE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D1DA5F792409195500123EE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1DA5F7B2409195500123EE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tapitapi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aa.tapitapi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1DA5F7C2409195500123EE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tapitapi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aa.tapitapi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D1DA5F7E2409195500123EE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tapitapiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aa.tapitapiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tapitapi.app/tapitapi";
+			};
+			name = Debug;
+		};
+		D1DA5F7F2409195500123EE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tapitapiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aa.tapitapiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tapitapi.app/tapitapi";
+			};
+			name = Release;
+		};
+		D1DA5F812409195500123EE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tapitapiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aa.tapitapiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tapitapi;
+			};
+			name = Debug;
+		};
+		D1DA5F822409195500123EE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tapitapiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aa.tapitapiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tapitapi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1DA5F4B2409195100123EE1 /* Build configuration list for PBXProject "tapitapi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1DA5F782409195500123EE1 /* Debug */,
+				D1DA5F792409195500123EE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1DA5F7A2409195500123EE1 /* Build configuration list for PBXNativeTarget "tapitapi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1DA5F7B2409195500123EE1 /* Debug */,
+				D1DA5F7C2409195500123EE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1DA5F7D2409195500123EE1 /* Build configuration list for PBXNativeTarget "tapitapiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1DA5F7E2409195500123EE1 /* Debug */,
+				D1DA5F7F2409195500123EE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1DA5F802409195500123EE1 /* Build configuration list for PBXNativeTarget "tapitapiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1DA5F812409195500123EE1 /* Debug */,
+				D1DA5F822409195500123EE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1DA5F482409195100123EE1 /* Project object */;
+}
